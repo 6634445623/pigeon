@@ -5,9 +5,9 @@ on:
     branches: [master, testing]
     paths: [frontend/**]
     tags: [ v* ]
-  pull_request:
-    types: [opened, reopened, synchronize, ready_for_review]
-    paths: [frontend/**]
+  #pull_request:
+    #types: [opened, reopened, synchronize, ready_for_review]
+    #paths: [frontend/**]
 
 env:
   # Use docker.io for Docker Hub (Default) / Use ghcr.io for GitHub Container Registry
